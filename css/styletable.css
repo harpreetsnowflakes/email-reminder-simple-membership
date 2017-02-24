@@ -1,0 +1,6 @@
+							/* Add Meta Box Css */
+.reminderevent {width:100%;}
+.reminderevent td:first-child {width:20%;vertical-align: top;}
+.reminderevent td:nth-child(2) {width:70%;}
+.subjectemail {width:40%;}
+.spacer {height:20px;}
