@@ -434,7 +434,7 @@ function sendremindermail($from,$site_name,$to,$subject,$message)
 	$mail->Host = 'smtp.sendgrid.net';  // Specify main and backup SMTP servers
 	$mail->SMTPAuth = true;                               // Enable SMTP authentication
 	$mail->Username = 'apikey';                 // SMTP username
-	$mail->Password = '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';                           // SMTP password
+	$mail->Password = 'secret';                           // SMTP password
 	$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 	$mail->Port = 587;                                    // TCP port to connect to
 
